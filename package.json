@@ -11,7 +11,7 @@
   ],
   "author": "Maximilian Schwarzmüller",
   "license": "MIT",
-  "Dependencies": {
+  "dependencies": {
     "http-server": "^0.9.0"
   }
 }
