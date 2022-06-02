@@ -6,6 +6,10 @@
   "scripts": {
     "start": "http-server -c-1 -p 3000"
   },
+  "engines": {
+    "node": "10.15.1",
+    "npm": "6.4.1"
+  },
   "keywords": [
     "pwa"
   ],
