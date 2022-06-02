@@ -4,10 +4,7 @@
   "description": "A simple example PWA with an app-manifest and precaching",
   "main": "index.js",
   "scripts": {
-  },
-  "engines": {
-    "node": ">= 6.9.4",
-    "npm": ">= 4.4.0"
+    "start": "http-server -c-1 -p 3000"
   },
   "keywords": [
     "pwa"
