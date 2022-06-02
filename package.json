@@ -12,6 +12,6 @@
   "author": "THH",
   "license": "MIT",
   "dependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "^0.9.0"
   }
 }
