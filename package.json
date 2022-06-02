@@ -9,7 +9,7 @@
   "keywords": [
     "pwa"
   ],
-  "author": "Maximilian Schwarzmüller",
+  "author": "THH",
   "license": "MIT",
   "dependencies": {
     "http-server": "^14.1.1"
