@@ -50,4 +50,4 @@ app.get('/ads',function(req,res){
 
 const port = 80;
 
-app.listen(port, () => console.log(`Server started on port ${port}`));
+app.listen(process.env.PORT, () => console.log(`Server started on port ${port}`));
