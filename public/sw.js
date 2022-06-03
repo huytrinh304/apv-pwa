@@ -22,9 +22,14 @@ self.addEventListener('activate', function (event) {
   event.waitUntil(enableNavigationPreload());
 });
 
-self.addEventListener('push', (e) => {
-  console.log( e.data.text());
+self.addEventListener("push", e => {
+  const data = e.data.json();
+  self.registration.showNotification(data.title, {
+    body: "Thông báo nè",
+    icon: "http://image.ibb.co/frYOFd/tmlogo.png"
+  });
 });
+
 self.addEventListener('fetch', function(event) {
   console.log('start fetch');
   event.respondWith(
